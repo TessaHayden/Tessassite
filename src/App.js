@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import React from 'react';
+import Home from './pages/homepage';
+import Header from './pages/header';
 import './App.css';
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-
-    </div>
-  );
+    <>
+      <Header />
+      <Home />
+    </>
+  )
 }
 
 export default App;
